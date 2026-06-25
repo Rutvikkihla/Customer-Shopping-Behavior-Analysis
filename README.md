@@ -77,6 +77,7 @@ Built an interactive dashboard with slicers for Subscription Status, Gender, Cat
 
 ## 📊 Dashboard Preview
 
+![Customer Behavior Dashboard](dashboard.jpg)
 ![Customer Behavior Dashboard](dashboard_page-0001.jpg)
 
 > Filters: Subscription Status · Gender · Category · Shipping Type
