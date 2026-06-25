@@ -78,7 +78,6 @@ Built an interactive dashboard with slicers for Subscription Status, Gender, Cat
 ## 📊 Dashboard Preview
 
 ![Customer Behavior Dashboard](dashboard.jpg)
-![Customer Behavior Dashboard](dashboard_page-0001.jpg)
 
 > Filters: Subscription Status · Gender · Category · Shipping Type
 
@@ -154,7 +153,7 @@ jupyter notebook Customer_shopping_behaviour.ipynb
  ┣ 🗃️  Customers_Behavior_Data_Insights.sql # SQL business queries
  ┣ 📊 Customer_Behavior_Dashboard.pbix      # Power BI dashboard
  ┣ 📝 Customer_Shopping_Behavior_Analysis.pdf # Full report
- ┣ 🖼️  dashboard_page-0001.jpg              # Dashboard screenshot
+ ┣ 🖼️  dashboardjpg              # Dashboard screenshot
  ┗ 📖 README.md
 ```
 
@@ -163,7 +162,7 @@ jupyter notebook Customer_shopping_behaviour.ipynb
 ## 👤 Author
 
 **Rutvik Kihla**
-[LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/your-username)
+[LinkedIn](https://linkedin.com/in/Rutvikkihla) · [GitHub](https://github.com/Rutvikkihla)
 
 ---
 
