@@ -1,6 +1,6 @@
 # 🛍️ Customer Shopping Behavior Analysis
 
-A complete end-to-end data analytics project analyzing shopping patterns, customer segments, and revenue trends across 3,900 transactions — using Python, MySQL, Power BI, and AI-assisted reporting.
+A complete end-to-end data analytics project analyzing shopping patterns, customer segments, and revenue trends across 3,900 transactions - using Python, MySQL, Power BI, and AI-assisted reporting.
 
 ---
 
@@ -37,20 +37,20 @@ This project explores customer shopping behavior to uncover actionable business 
 
 ## 🔄 Project Workflow
 
-### 1 — Data Loading & Exploration (Python)
+### 1 - Data Loading & Exploration (Python)
 - Loaded dataset using `pandas`
 - Inspected structure with `df.info()` and `df.describe()`
 - Identified 37 missing values in the `Review Rating` column
 
-### 2 — Data Cleaning & Feature Engineering
+### 2 - Data Cleaning & Feature Engineering
 - Imputed missing `Review Rating` values using the **median per product category**
 - Renamed all columns to **snake_case** for consistency
 - Engineered new columns:
-  - `age_group` — binned from raw age values
-  - `purchase_frequency_days` — derived from purchase frequency field
+  - `age_group` - binned from raw age values
+  - `purchase_frequency_days` - derived from purchase frequency field
 - Dropped `promo_code_used` (confirmed redundant with `discount_applied`)
 
-### 3 — SQL Analysis (MySQL)
+### 3 - SQL Analysis (MySQL)
 Connected the cleaned DataFrame to a MySQL server and ran 10 business queries:
 
 | # | Question |
@@ -66,10 +66,10 @@ Connected the cleaned DataFrame to a MySQL server and ran 10 business queries:
 | Q9 | Repeat buyers (>5 purchases) and subscription likelihood |
 | Q10 | Total revenue by age group |
 
-### 4 — Power BI Dashboard
+### 4 - Power BI Dashboard
 Built an interactive dashboard with slicers for Subscription Status, Gender, Category, and Shipping Type.
 
-### 5 — Report & Presentation
+### 5 - Report & Presentation
 - Written analysis report documenting all findings and recommendations
 - Executive presentation built using **Gamma AI**
 
@@ -100,11 +100,11 @@ Built an interactive dashboard with slicers for Subscription Status, Gender, Cat
 
 ## 💡 Business Recommendations
 
-- **Boost Subscriptions** — Only 27% of customers subscribe; promote exclusive perks to grow this segment
-- **Loyalty Programs** — Reward returning buyers to move them into the Loyal tier
-- **Review Discount Policy** — Half of Hat and Sneaker purchases use discounts; review margin impact
-- **Product Spotlighting** — Feature top-rated products (Gloves, Sandals, Boots) in marketing campaigns
-- **Targeted Marketing** — Prioritize Young Adults and Express-shipping users as high-value segments
+- **Boost Subscriptions** - Only 27% of customers subscribe; promote exclusive perks to grow this segment
+- **Loyalty Programs** - Reward returning buyers to move them into the Loyal tier
+- **Review Discount Policy** - Half of Hat and Sneaker purchases use discounts; review margin impact
+- **Product Spotlighting** - Feature top-rated products (Gloves, Sandals, Boots) in marketing campaigns
+- **Targeted Marketing** - Prioritize Young Adults and Express-shipping users as high-value segments
 
 ---
 
